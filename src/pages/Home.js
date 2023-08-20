@@ -9,15 +9,7 @@ const Home = () => {
   };
   return (
     <div>
-      <iframe
-        src="https://www.youtube.com/"
-        frameborder="0"
-        scrolling="no"
-        marginwidth="0"
-        marginheight="0"
-        style={mystyle}
-        allowtransparency="true"
-      ></iframe>
+      <span>Welcome Hole..</span>
     </div>
   );
 };
