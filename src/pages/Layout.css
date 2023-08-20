@@ -1,0 +1,17 @@
+.ui-frame {
+    background-color: #ffffff;
+}
+
+header {
+    padding: .25rem 2rem .25rem 2rem;
+    background-color: #000000;
+}
+
+footer {
+    padding: .25rem 2rem .25rem 2rem;
+    background-color: #000000;
+}
+
+article {
+    min-height: 45rem;
+}
