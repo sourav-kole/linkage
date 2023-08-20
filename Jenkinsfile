@@ -16,6 +16,7 @@ node {
     }
 
     stage('Deploy') {
+        bat("firebase login")
         bat("firebase deploy --only hosting")
     }
 }
