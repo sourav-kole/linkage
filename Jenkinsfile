@@ -7,6 +7,10 @@ node {
         bat "npm install"
     }
 
+    stage('Install firebase') {
+        bat "npm i -g firebase-tools"
+    }
+
     stage('Build') {
         bat "npm run build"
     }
