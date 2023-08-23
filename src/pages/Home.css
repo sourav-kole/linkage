@@ -47,8 +47,5 @@
 
 .experience_container {
     position: relative;
-    margin: 0 auto;
-    min-width: 978px;
-    max-width: 1680px;
-    padding: 8px;
+    width: 100%;
 }
