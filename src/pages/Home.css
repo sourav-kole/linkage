@@ -1,0 +1,54 @@
+.skills-container {
+    background: #ffffff;
+}
+
+.skills-content {
+    display: flex;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.skills-content .skills {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1280px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #212121;
+}
+
+.skills-content .skills .skill {
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.skills-content .skills .skill > div:first-child {
+    min-height: 4vh;
+    min-width: 4vw;
+    margin-bottom: 2px;
+}
+
+.skills-content .skills .skill > div:first-child > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.skills-content .skills .skill > div:last-child {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.experience_container {
+    position: relative;
+    margin: 0 auto;
+    min-width: 978px;
+    max-width: 1680px;
+    padding: 8px;
+}
